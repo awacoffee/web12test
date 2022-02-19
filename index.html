@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ▼設定するのであれば入れる▼ -->
+        <meta name="keywords" content="" />
+        <!-- ▼ディスクリプション→コンテンツ班からもらう▼ -->
+        <meta name="description" content="" />
+
+        <!-- ▼フォント:Rollerscript Rough▼ -->
+        <!-- CSSでの指定 /CSSに移したら消す-->
+        <!-- font-family: rollerscript-rough, sans-serif;
+            font-weight: 400;
+            font-style: normal; -->
+        <link rel="stylesheet" href="https://use.typekit.net/twf1hjd.css" />
+
+        <!-- ▼フォント:Shippori Mincho B1(Regular,Medium,Bold) -->
+        <!-- ▼フォント:Noto Sans Japanese(Regular,Medium,Bold) -->
+        <!-- CSSでの指定 /CSSに移したら消す-->
+        <!-- font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Shippori Mincho B1', serif; -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho+B1:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ▼ファビコン▼ -->
+        <link rel="icon" href="" />
+
+        <!-- ▼FontAwesome▼ -->
+        <script
+            src="https://kit.fontawesome.com/49c7c50127.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- ▼リセットCSS▼ -->
+        <link href="assets/css/reset.css" rel="stylesheet" media="all" />
+        <!-- ▼共通スタイル▼ -->
+        <link href="assets/css/common.css" rel="stylesheet" media="all" />
+        <!-- ▼店舗個別ページのCSS /ファイル名記載する▼ -->
+        <link href="" rel="stylesheet" media="all" />
+
+        <title>店舗個別ページ</title>
+    </head>
+    <body>
+        <!-- ▼SP-frontヘッダー▼ -->
+        <header>
+            <div class="header_wrap">
+                ※動画入れる
+                <div class="header_wrap_box">
+                    <!-- ▼カップicon▼ -->
+                    <a href="" class="header_wrap_box_icon">
+                        <img src="" alt="Awa Our Coffee Hourのアイコン" />
+                    </a>
+                    <!-- ▼ハンバーガーメニュー▼ -->
+                    <div class="header_wrap_box_nav">
+                        <div class="header_wrap_box_nav_bgc"></div>
+                        <div class="header_wrap_box_nav_lines">
+                            <span class="header_wrap_box_nav_line"></span>
+                            <span class="header_wrap_box_nav_line"></span>
+                            <span class="header_wrap_box_nav_line"></span>
+                        </div>
+                    </div>
+                    <!-- /.header_wrap_box_nav -->
+                </div>
+                <!-- header_wrap_box -->
+                <div class="header_wrap_logo"><img src="" alt="" /></div>
+                <div class="header_wrap_catch">
+                    とくしまとコーヒー、<br />
+                    キミと見つけるおいしいひととき
+                </div>
+            </div>
+            <!-- /.header_wrap -->
+
+            <!-- ▼ドロワー▼ -->
+            <nav class="drower_nav">
+                <div class="drower_nav_close"></div>
+                <div class="drower_nav_logo">
+                    ※※タップで「HOME」へ飛ぶようにする？のであればaタグ
+                    <img src="" alt="Awa Our Coffee Hour" />
+                </div>
+                <ul class="drower_nav_box">
+                    <li class="drower_nav_box_drink">
+                        <a href="">店で飲みたい</a>
+                    </li>
+                    <li class="drower_nav_box_beans">
+                        <a href="">豆を買いたい</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="drower_nav_search">
+                        <a href="">条件検索</a>
+                    </li>
+                    <li class="drower_nav_column">
+                        <a href="">コラム</a>
+                    </li>
+                    <li class="drower_nav_biginner">
+                        <a href="">コーヒー入門知識</a>
+                    </li>
+                    <li class="drower_nav_mypage">
+                        <a href="">マイページ</a>
+                    </li>
+                    <li class="drower_nav_contact">
+                        <a href="">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.drower_nav -->
+        </header>
+
+        <main>
+            <!-- ▼About▼ -->
+            <section class="about">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="wrap_title">About</div>
+                        <h2 class="wrap_sub">このサイトについて</h2>
+                        <p class="about_wrap_text">
+                            このサイトについての導入文このサイトについての導入文このサイトについての導入文このサイトについての導入文このサイトについての導入文
+                        </p>
+                    </div>
+                    <!-- inner -->
+                </div>
+                <!-- /.wrap -->
+            </section>
+            <!-- about -->
+
+            <section class="stores">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="wrap_title">Stores</div>
+                        <h2 class="wrap_sub">店舗情報</h2>
+
+                        <!-- ▼タブメニュー▼ -->
+                        <ul class="tab_wrap">
+                            <li><a href="#tab_drink">店で飲みたい</a></li>
+                            <li><a href="#tab_beans">豆を買いたい</a></li>
+                        </ul>
+
+                        <!-- ▼タブ切り替え：店で飲むエリア▼ -->
+                        <div id="tab_drink" class="area">
+                            <div class="stores_wrap_card">
+                                ※店舗カードリスト入る
+                            </div>
+                            <!-- /.stores_wrap_card -->
+
+                            <div class="btn_wrap">
+                                <a href="" class="btn-link"
+                                    ><span>店舗情報一覧を見る</span></a
+                                >
+                            </div>
+                        </div>
+
+                        <!-- ▼タブ切り替え：豆を買うエリア▼ -->
+                        <div id="tab_drink" class="area">
+                            <div class="stores_wrap_card">
+                                ※店舗カードリスト入る
+                            </div>
+                            <!-- /.stores_wrap_card -->
+
+                            <div class="btn_wrap">
+                                <a href="" class="btn-link"
+                                    ><span>店舗情報一覧を見る</span></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- inner -->
+                </div>
+                <!-- wrap -->
+            </section>
+            <!-- stores -->
+
+            <section class="column">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="wrap_title">Pick Up</div>
+                        <h2 class="wrap_sub">コラム</h2>
+                        <div class="column_wrap_card">
+                            ※コラムカードリスト入る
+                        </div>
+                        <!-- column_wrap_car -->
+                        <div class="btn_wrap">
+                            <a href="" class="btn-link"
+                                ><span>コラム一覧を見る</span></a
+                            >
+                        </div>
+                    </div>
+                    <!-- inner -->
+                </div>
+                <!-- wrap -->
+            </section>
+            <!-- column -->
+
+            <section class="news">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="wrap_title">What's New</div>
+                        <h2 class="wrap_sub">新着情報</h2>
+                        <div class="news_wrap_card">
+                            ※新着情報カードリストが入る
+                        </div>
+                        <!-- /.news_wrap_card -->
+                    </div>
+                    <!-- /.inner -->
+                </div>
+                <!-- /.wrap -->
+            </section>
+            <!-- /.news -->
+
+            <section class="instagram">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="wrap_title">Instagram</div>
+                        <h2 class="wrap_sub">公式インスタグラム</h2>
+
+                        <div class="instagram_wrap_box">
+                            <ul>
+                                <li>
+                                    <a href="" class="instagram_wrap_box_img"
+                                        ><img src="" alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="" class="instagram_wrap_box_img"
+                                        ><img src="" alt=""
+                                    /></a>
+                                </li>
+                                <li>
+                                    <a href="" class="instagram_wrap_box_img"
+                                        ><img src="" alt=""
+                                    /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- instagram_wrap_box -->
+                    </div>
+                    <!-- inner -->
+                </div>
+                <!-- wrap -->
+            </section>
+            <!-- instagram -->
+
+            <!-- ▼「飲む」「豆」ボタン/下部fix▼ -->
+            <div class="bottom_box">
+                <ul>
+                    <li class="bottom_box_drink">
+                        <a href="">店で飲みたい</a>
+                    </li>
+                    <li class="bottom_box_beans">
+                        <a href="">豆を買いたい</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer_wrap">
+                <div class="inner">
+                    <!-- ▼フッターのナビリスト:仮!!▼ -->
+                    <nav class="footer_wrap_nav">
+                        <ul>
+                            <li><a href="">店で飲みたい</a></li>
+                            <li><a href="">豆を買いたい</a></li>
+                            <li><a href="">条件検索</a></li>
+                            <li><a href="">コラム</a></li>
+                            <li><a href="">コーヒー入門知識</a></li>
+                            <li><a href="">マイページ</a></li>
+                            <li><a href="">お問い合わせ</a></li>
+                            <li><a href="">このサイトについて</a></li>
+                            <li><a href="">プライバシーポリシー</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="footer_wrap_logo"><img src="" alt="" /></div>
+                    <p class="footer_wrap_copyright">
+                        <small
+                            >Copyright &copy; 2022 動 All Rights
+                            Reserved.</small
+                        >
+                    </p>
+                </div>
+                <!-- inner -->
+            </div>
+            <!-- footer_wrap -->
+        </footer>
+
+        <!-- ▼Javascript▼ -->
+    </body>
+</html>
